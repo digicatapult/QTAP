@@ -4,7 +4,7 @@ Quantum Technology Access Programme
 This is a series of examples, cases, studies and examples for the QTAP training.  
 
 The material is stored in folders including:
-- [Python overview](/Python)
+- [Python overview](/Python/overview)
 - [Excel optimisation excercises](/Excel)
 - Simulations
 - Machine learning
@@ -31,7 +31,7 @@ git clone https://github.com/digicatapult/QTAP.git
 ## Running the notebooks
 To run the notebooks, open a terminal window and navigate to the folder containing the repository.  Then run the following command:
 ```
-jupyter notebook Python/<notebook_name>
+jupyter notebook Python/overview/<notebook_name>
 ```
 
 ## Contributing
