@@ -31,7 +31,7 @@ git clone https://github.com/digicatapult/QTAP.git
 ## Running the notebooks
 To run the notebooks, open a terminal window and navigate to the folder containing the repository.  Then run the following command:
 ```
-jupyter notebook Python/<notebook_name>
+jupyter notebook Python/overview/<notebook_name>
 ```
 
 ## Contributing
