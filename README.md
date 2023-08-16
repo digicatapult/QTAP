@@ -1,13 +1,21 @@
 # QTAP
 Quantum Technology Access Programme
 
-This is a series of examples, cases, studies and examples for the QTAP training.  
+Digital Catapult are running the Quantum Technology Access Programme (QTAP) with partners ORCA Computing, Riverlane, 
+BT, KETS, and PQ Shield.  
+QTAP is part of a wider Innovate UK Industry Strategy Challenge Fund 
+(ISCF) funded project called Quantum Data Centre of the Future which aims to embed a quantum computer within a classical data
+centre to explore real world access to a quantum computer. QTAP aims to engage organisations, raising awareness of the
+technology and exploring potential quantum computing use cases; providing them with access to the technology and expertise.
+
+This is repository contains a series of examples, cases, studies for the QTAP training.  
+The linear regression example is based on an example in "Machine Learning for Absolute Beginners"
+by Oliver Theobald.
 
 The material is stored in folders including:
 - [Python overview](/Python/overview)
 - [Excel optimisation excercises](/Excel)
-- Simulations
-- Machine learning
+- [Machine learning](/Python/ML)
 
 ## Pre-requisites
 To run the Jupyter notebooks you must have the following installed:
@@ -20,6 +28,14 @@ If you are using pip then please install the following packages:
 pip3 install --upgrade pip
 pip3 install jupyter
 ```
+To run the Machine Learning examples you will need to install
+ - [pandas](https://pandas.pydata.org/docs/getting_started/install.html)
+ - [numpy](https://numpy.org/install/)
+ - [matplotlib](https://matplotlib.org/stable/users/installing/index.html)
+ - [scikit-learn](https://scikit-learn.org/stable/install.html)
+
+The clustering example will also require the installation of [Folium](https://pypi.org/project/folium/).  We strongly recommend installing 
+Folium in a separate environment using PyEnv or something similar.
 
 ## Installation
 Clone the repository to a suitable location on your computer using the following command:
