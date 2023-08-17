@@ -3,12 +3,14 @@ Quantum Technology Access Programme
 
 Digital Catapult are running the Quantum Technology Access Programme (QTAP) with partners ORCA Computing, Riverlane, 
 BT, KETS, and PQ Shield.  
-QTAP is part of a wider Innovate UK Industry Strategy Challenge Fund 
-(ISCF) funded project called Quantum Data Centre of the Future which aims to embed a quantum computer within a classical data
-centre to explore real world access to a quantum computer. QTAP aims to engage organisations, raising awareness of the
-technology and exploring potential quantum computing use cases; providing them with access to the technology and expertise.
 
-This is repository contains a series of examples, cases, studies for the QTAP training.  
+QTAP is part of a wider Innovate UK Industry Strategy Challenge Fund  (ISCF) funded project called Quantum Data Centre 
+of the Future which aims to embed a quantum computer within a classical data centre to explore real world access to a quantum computer. 
+
+QTAP aims to engage organisations, raising awareness of the technology and exploring potential quantum computing use cases; providing them with access to the technology and expertise.
+
+This repository contains a series of examples, cases, studies for the QTAP training.  
+
 The linear regression example is based on an example in "Machine Learning for Absolute Beginners"
 by Oliver Theobald.
 
@@ -46,8 +48,15 @@ git clone https://github.com/digicatapult/QTAP.git
 
 ## Running the notebooks
 To run the notebooks, open a terminal window and navigate to the folder containing the repository.  Then run the following command:
+
+For notebooks in the overview folder
 ```
 jupyter notebook Python/overview/<notebook_name>
+```
+
+For notebooks in the Machine Learning folder
+```
+jupyter notebook Python/ML/<notebook_name>
 ```
 
 ## Contributing
