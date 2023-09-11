@@ -14,10 +14,14 @@ This repository contains a series of examples, cases, studies for the QTAP train
 The linear regression example is based on an example in "Machine Learning for Absolute Beginners"
 by Oliver Theobald.
 
-The material is stored in folders including:
+The qiskit examples are based on examples from the [qiskit documentation](https://qiskit.org/documentation/stable/0.28/index.html).  
+Please refer to the individual Notebooks for source details.
+
+The material is stored in folders:
 - [Python overview](/Python/overview)
 - [Excel optimisation excercises](/Excel)
 - [Machine learning](/Python/ML)
+- [Qiskit](/Python/qiskit)
 
 ## Pre-requisites
 To run the Jupyter notebooks you must have the following installed:
@@ -39,6 +43,9 @@ To run the Machine Learning examples you will need to install
 The clustering example will also require the installation of [Folium](https://pypi.org/project/folium/).  We strongly recommend installing 
 Folium in a separate environment using PyEnv or something similar.
 
+To run the qiskit examples you will need to install [qiskit](https://qiskit.org/documentation/stable/0.28/getting_started.html). We strongly 
+recommend installing qiskit in a separate environment.
+
 ## Installation
 Clone the repository to a suitable location on your computer using the following command:
 ```
@@ -57,6 +64,11 @@ jupyter notebook Python/overview/<notebook_name>
 For notebooks in the Machine Learning folder
 ```
 jupyter notebook Python/ML/<notebook_name>
+```
+
+For notebooks in the qiskit folder
+```
+jupyter notebook Python/qiskit/<notebook_name>
 ```
 
 ## Contributing
