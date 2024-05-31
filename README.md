@@ -2,7 +2,7 @@
 Quantum Technology Access Programme
 
 Digital Catapult are running the Quantum Technology Access Programme (QTAP) with partners ORCA Computing, Riverlane, 
-BT, KETS, and PQ Shield.  
+BT, and PQ Shield.  
 
 QTAP is part of a wider Innovate UK Industry Strategy Challenge Fund  (ISCF) funded project called Quantum Data Centre 
 of the Future which aims to embed a quantum computer within a classical data centre to explore real world access to a quantum computer. 
@@ -72,4 +72,4 @@ jupyter notebook Python/qiskit/<notebook_name>
 ```
 
 ## Contributing
-If you would like to contribute to this repository, please check our contributing guidelines [here](/CONTRIBUTING.md)
+If you would like to contribute to this repository, please check our contributing guidelines [here](https://github.com/digicatapult/.github/blob/main/CONTRIBUTING.md).
