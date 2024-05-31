@@ -72,4 +72,4 @@ jupyter notebook Python/qiskit/<notebook_name>
 ```
 
 ## Contributing
-If you would like to contribute to this repository, please check our contributing guidelines [here](/CONTRIBUTING.md)
+If you would like to contribute to this repository, please check our contributing guidelines [here](https://github.com/digicatapult/.github/blob/main/CONTRIBUTING.md)
