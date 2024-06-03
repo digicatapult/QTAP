@@ -1,0 +1,27 @@
+# This workflow will install Python dependencies and run Unit tests.
+
+name: Unit Test
+#The name of the workflow as it will appear in the "Actions" tab of the GitHub repository.
+git statu
+on: [push]
+
+jobs:
+#reproduces what was tested locally using Anaconda
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Python
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy
+          pip install pytest
+      - name: Test with pytest
+        run: |
+# navigate to the correct directory to find the test files
+            cd Python
+            cd tutorial_notebooks
+            pytest
