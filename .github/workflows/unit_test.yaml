@@ -16,4 +16,4 @@ jobs:
           pip install numpy pytest
       - name: Test with pytest
         run: pytest
-        working-directory: ./Python/tutorial_notebooks
+        working-directory: Python/tutorial_notebooks
