@@ -17,5 +17,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install numpy pytest
       - name: Test with pytest
-        run: pytest
+        run: pytest --verbose
         working-directory: Python/tutorial_notebooks
