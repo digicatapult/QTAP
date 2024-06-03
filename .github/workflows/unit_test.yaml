@@ -16,5 +16,5 @@ jobs:
           pip install numpy pytest
       - name: Test with pytest
         run: |
-          cd Python/tutorial_notebooks
+          cd ./Python/tutorial_notebooks
           pytest
