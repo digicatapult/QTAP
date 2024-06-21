@@ -50,7 +50,7 @@ recommend installing qiskit in a separate environment.
 To run the Travelling Salesman (TSP) examples you will need to obtain and install a version of the [ORCA Computing](https://orcacomputing.com/) 
 Software Development Kit (SDK), and copy the files in the tutorial_notebooks directory across to the same directory in the installed codebase.  
 You can find a version on [GitHub](https://github.com/orcacomputing/quantumqubo/).  The installation of the ORCA SDK is outside the scope of this 
-document.
+document.  More details of the TSP algorithm are given in [arXiv preprint](https://arxiv.org/abs/2406.14252).
 
 ## Installation
 Clone the repository to a suitable location on your computer using the following command:
