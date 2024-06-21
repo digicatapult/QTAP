@@ -9,7 +9,7 @@ of the Future which aims to embed a quantum computer within a classical data cen
 
 QTAP aims to engage organisations, raising awareness of the technology and exploring potential quantum computing use cases; providing them with access to the technology and expertise.
 
-This repository contains a series of examples, cases, studies for the QTAP training.  
+This repository contains a series of examples and  cases studies for the QTAP training.  
 
 The linear regression example is based on an example in "Machine Learning for Absolute Beginners"
 by Oliver Theobald.
@@ -22,6 +22,7 @@ The material is stored in folders:
 - [Excel optimisation excercises](/Excel)
 - [Machine learning](/Python/ML)
 - [Qiskit](/Python/qiskit)
+- [TSP](/Python/tutorial_notebooks)
 
 ## Pre-requisites
 To run the Jupyter notebooks you must have the following installed:
@@ -46,6 +47,11 @@ Folium in a separate environment using PyEnv or something similar.
 To run the qiskit examples you will need to install [qiskit](https://qiskit.org/documentation/stable/0.28/getting_started.html). We strongly 
 recommend installing qiskit in a separate environment.
 
+To run the Travelling Salesman (TSP) examples you will need to obtain and install a version of the [ORCA Computing](https://orcacomputing.com/) 
+Software Development Kit (SDK), and copy the files in the tutorial_notebooks directory across to the same directory in the installed codebase.  
+You can find a version on [GitHub](https://github.com/orcacomputing/quantumqubo/).  The installation of the ORCA SDK is outside the scope of this 
+document.  More details of the TSP algorithm are given in [arXiv preprint](https://arxiv.org/abs/2406.14252).
+
 ## Installation
 Clone the repository to a suitable location on your computer using the following command:
 ```
@@ -69,6 +75,11 @@ jupyter notebook Python/ML/<notebook_name>
 For notebooks in the qiskit folder
 ```
 jupyter notebook Python/qiskit/<notebook_name>
+```
+
+For the travelling salesman notebook, once you have installed the ORCA SDK
+```
+jupyter notebook Python/travelling_salesman/tsp_final
 ```
 
 ## Contributing
