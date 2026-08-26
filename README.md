@@ -1,11 +1,11 @@
 # QTAP
 Quantum Technology Access Programme
 
-Digital Catapult are running the Quantum Technology Access Programme (QTAP) with partners ORCA Computing, Riverlane, 
-BT, and PQ Shield.  
+Digital Catapult are running the third cohort of the Quantum Technology Access Programme (QTAP) in partnership with the National Quantum Computing Centre NQCC as part of their 
+SparQ programme. The project has previously been delivered with partners ORCA Computing, Riverlane, BT, and PQ Shield.  
 
-QTAP is part of a wider Innovate UK Industry Strategy Challenge Fund  (ISCF) funded project called Quantum Data Centre 
-of the Future which aims to embed a quantum computer within a classical data centre to explore real world access to a quantum computer. 
+QTAP is now a part the the NQCC’s flagship user engagement programme Sparq, but was prevouisly pary of a wider Innovate UK Industry Strategy Challenge Fund  (ISCF) funded project 
+called Quantum Data Centre of the Future which aims to embed a quantum computer within a classical data centre to explore real world access to a quantum computer. 
 
 QTAP aims to engage organisations, raising awareness of the technology and exploring potential quantum computing use cases; providing them with access to the technology and expertise.
 
@@ -14,7 +14,7 @@ This repository contains a series of examples and  cases studies for the QTAP tr
 The linear regression example is based on an example in "Machine Learning for Absolute Beginners"
 by Oliver Theobald.
 
-The qiskit examples are based on examples from the [qiskit documentation](https://qiskit.org/documentation/stable/0.28/index.html).  
+The qiskit examples are descoped for this current cohort but are based on examples from the [qiskit documentation](https://qiskit.org/documentation/stable/0.28/index.html).  
 Please refer to the individual Notebooks for source details.
 
 The material is stored in folders:
