@@ -4,7 +4,7 @@ Quantum Technology Access Programme
 Digital Catapult are running the third cohort of the Quantum Technology Access Programme (QTAP) in partnership with the National Quantum Computing Centre NQCC as part of their 
 SparQ programme. The project has previously been delivered with partners ORCA Computing, Riverlane, BT, and PQ Shield.  
 
-QTAP is now a part the the NQCC’s flagship user engagement programme Sparq, but was prevouisly pary of a wider Innovate UK Industry Strategy Challenge Fund  (ISCF) funded project 
+QTAP is now a part the the NQCC’s flagship user engagement programme Sparq, but was prevouisly part of a wider Innovate UK Industry Strategy Challenge Fund  (ISCF) funded project 
 called Quantum Data Centre of the Future which aims to embed a quantum computer within a classical data centre to explore real world access to a quantum computer. 
 
 QTAP aims to engage organisations, raising awareness of the technology and exploring potential quantum computing use cases; providing them with access to the technology and expertise.
